@@ -151,10 +151,10 @@ export function WobbleCardDemo() {
             >
               Driving the Future with <span className="text-[#118B50] dark:text-blue-700 relative">Sustainable Solutions, and Hands-On Learning</span>
             </motion.h3>
-            <motion.p {...fadeInUp} className="text-gray-600 max-w-2xl mx-auto text-lg md:text-xl dark:text-white ">
-At our core, we are committed to transforming renewable energy, smart mobility, and hands-on technical education—while continuously expanding into new frontiers to build a sustainable,
-innovation-driven future
-            </motion.p>
+           <p className="text-gray-600 max-w-4xl mx-auto text-base md:text-lg lg:text-xl dark:text-white leading-relaxed text-center px-4">
+  At our core, we are committed to transforming renewable energy, smart mobility, and hands-on technical education—while continuously expanding into new frontiers to build a sustainable, innovation-driven future.
+</p>
+
           </motion.div>
         </div>
 

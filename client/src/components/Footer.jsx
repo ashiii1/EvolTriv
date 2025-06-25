@@ -114,8 +114,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full dark:bg-[#00005c] mx-auto bg-[#000000] my-5 md:my-10 py-6 md:py-12 rounded-lg md:rounded-xl text-white">
-      <div className="w-[80vw] mx-auto grid gap-y-10 gap-x-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+<footer className="w-full dark:bg-[#00005c] mx-auto bg-[#000000] mt-0 mb-0 py-6 md:py-12 rounded-lg md:rounded-xl text-white">
+      <div className="w-[90vw] mx-auto grid gap-y-10 gap-x-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {/* Logo */}
         <div className="flex flex-col gap-2">
           <img
