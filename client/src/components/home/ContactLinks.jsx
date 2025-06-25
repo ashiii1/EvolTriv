@@ -5,13 +5,13 @@ const FloatingContact = () => {
     <div className="fixed left-2 top-1/2 -translate-y-1/2 flex flex-col space-y-3 z-50">
       {/* WhatsApp */}
       <a
-        href="https://wa.me/919705130846" // Replace with your WhatsApp number
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-green-500 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition"
-      >
-        <FaWhatsapp size={24} />
-      </a>
+  href="https://wa.me/919705130846?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20Evoltriv's%20services."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition"
+>
+  <FaWhatsapp size={24} />
+</a>
 
       {/* Email */}
       <a
