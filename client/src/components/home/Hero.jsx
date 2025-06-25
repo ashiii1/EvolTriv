@@ -4,12 +4,12 @@ import { Sun, Battery, Leaf, Wrench } from "lucide-react";
 import { images } from "../../assets/Assets";
 
 const Hero = () => {
-  const stats = [
-    { icon: Sun, value: "500+", label: "Installations" },
-    { icon: Battery, value: "95%", label: "Satisfaction" },
-    { icon: Leaf, value: "30%", label: "Energy Savings" },
-    { icon: Wrench, value: "24/7", label: "Support" },
-  ];
+  // const stats = [
+  //   { icon: Sun, value: "500+", label: "Installations" },
+  //   { icon: Battery, value: "95%", label: "Satisfaction" },
+  //   { icon: Leaf, value: "30%", label: "Energy Savings" },
+  //   { icon: Wrench, value: "24/7", label: "Support" },
+  // ];
 
   return (
     <div className="relative bg-white">
@@ -77,7 +77,7 @@ const Hero = () => {
                 </motion.a>
               </motion.div> */}
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
+              {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
                 {stats.map((stat, index) => (
                   <motion.div
                     key={index}
@@ -94,7 +94,7 @@ const Hero = () => {
                     <div className="text-sm text-gray-600">{stat.label}</div>
                   </motion.div>
                 ))}
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
