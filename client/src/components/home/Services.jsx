@@ -35,19 +35,21 @@ const values = [
     icon: Sun,
     title: "Solar Energy Solutions",
     description:
-      "Providing cost-effective, and highly efficient solar installations and maintenance services for residential, businesses, industries, and agriculture",
+      "Providing cost-effective, and highly efficient solar installations and maintenance services for residential, businesses, industries, and agriculture. From installation to decommissioning, we handle every step of your system's lifecycle with care, expertise, and reliability",
   },
   {
     icon: Zap,
     title: "Electric Mobility",
     description:
-      "Developing smart, and next generation electric bicycles for sustainable transportation",
+"Developing smart and next-generation electric mobility solutions for sustainable transportation. We design, build, and maintain electric vehicle infrastructure and mobility systems tailored for cities, businesses, and individuals.",
   },
   {
     icon: Users,
     title: "Student Consulting",
     description:
-      "Empowering students with hands-on and industry-driven learning experiences",
+"Empowering students with hands-on experience through real-world consulting projects and industry collaboration. We provide mentorship, resources, and opportunities for students to work on impactful solutions across diverse sectors. ",
+
+
   },
 ];
 

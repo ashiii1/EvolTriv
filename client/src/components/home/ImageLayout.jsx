@@ -134,7 +134,6 @@ const images = [
     src: "/assets/Images/banner3.jpg",
     text: [
       "Green Energy Solutions for Villages",
-      "Empowering Rural Life with Green Energy",
       "Renewable Energy for Factories",
     ],
   }, // Top Large Image
