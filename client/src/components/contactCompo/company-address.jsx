@@ -7,7 +7,7 @@ export function CompanyAddressComponent() {
   const companyDetails = {
     name: "EvolTriv",
     address:
-      "Office no. 9, vijayawada, Andhra Pradesh, India",
+      " vijayawada, Andhra Pradesh, India",
     phone: "9705130846",
     email: "evoltriv@gmail.com",
     website: "https://www.ution.com",
