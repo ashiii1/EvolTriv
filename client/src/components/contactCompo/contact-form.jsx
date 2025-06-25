@@ -711,7 +711,7 @@ export function ContactFormComponent() {
                 <FormItem>
                   <FormLabel>Contact Number</FormLabel>
                   <FormControl>
-                    <Input placeholder="+1234567890" {...field} />
+                    <Input placeholder="+" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

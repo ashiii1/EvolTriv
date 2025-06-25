@@ -35,19 +35,19 @@ const values = [
     icon: Sun,
     title: "Solar Energy Solutions",
     description:
-      "Providing high-efficiency solar installations for homes, businesses, and industries.",
+      "Providing cost-effective, and highly efficient solar installations and maintenance services for residential, businesses, industries, and agriculture",
   },
   {
     icon: Zap,
     title: "Electric Mobility",
     description:
-      "Developing cutting-edge electric bicycles for sustainable and smart mobility.",
+      "Developing smart, and next generation electric bicycles for sustainable transportation",
   },
   {
     icon: Users,
     title: "Student Consulting",
     description:
-      "Empowering students with hands-on projects and industry-driven learning experiences.",
+      "Empowering students with hands-on and industry-driven learning experiences",
   },
 ];
 
@@ -149,10 +149,11 @@ export function WobbleCardDemo() {
               transition={{ duration: 0.5 }}
               className="text-4xl md:text-6xl font-bold tracking-tight"
             >
-              Driving the Future with <span className="text-[#118B50] dark:text-blue-700 relative">Clean Energy, Smart Mobility, and Hands-On Learning</span>
+              Driving the Future with <span className="text-[#118B50] dark:text-blue-700 relative">Sustainable Solutions, and Hands-On Learning</span>
             </motion.h3>
             <motion.p {...fadeInUp} className="text-gray-600 max-w-2xl mx-auto text-lg md:text-xl dark:text-white ">
-              We aim to revolutionize renewable energy, smart mobility, and hands-on technical guidance to build a sustainable and innovation-driven future.
+At our core, we are committed to transforming renewable energy, smart mobility, and hands-on technical education—while continuously expanding into new frontiers to build a sustainable,
+innovation-driven future
             </motion.p>
           </motion.div>
         </div>
@@ -181,8 +182,12 @@ export function WobbleCardDemo() {
                   <h2 className="text-2xl font-bold">Our Mission</h2>
                 </div>
                 <p className="text-gray-600 dark:text-white text-lg leading-relaxed ">
-                  To accelerate India's transition to sustainable energy by providing innovative solar solutions, advancing e-bike technology, and empowering students through hands-on consulting.
-                </p>
+Our mission is to empower communities and industries through sustainable solutions that
+integrate renewable energy, smart mobility, and hands-on technical innovation. We strive to
+bridge the gap between technology and real-world impact by delivering practical guidance,
+efficient systems, and forward-thinking solutions. As we grow, we are committed to expanding
+our services to new domains in sustainability, shaping a cleaner, smarter, and more resilient
+future for all                </p>
               </div>
             </motion.div>
 
@@ -204,8 +209,10 @@ export function WobbleCardDemo() {
                   <h2 className="text-2xl font-bold">Our Vision</h2>
                 </div>
                 <p className="text-gray-600 text-lg leading-relaxed dark:text-white">
-                  To be the leading provider of sustainable energy solutions in India by pioneering solar innovations, advancing e-bike technology, and empowering students through hands-on consulting.
-                </p>
+To become a leader in sustainable innovation by driving the future of clean energy, smart mobility,
+and practical technology education. We envision a world where sustainability is accessible,
+innovation is hands-on, and every solution we create contributes to a healthier planet and a
+smarter tomorrow                </p>
               </div>
             </motion.div>
           </div>
@@ -213,7 +220,7 @@ export function WobbleCardDemo() {
 
 
 <div className="pt-24 ">
-        <GridShowCase />
+        {/* <GridShowCase /> */}
         </div>
 
         {/* core values */}
