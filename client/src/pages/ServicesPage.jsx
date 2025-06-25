@@ -31,11 +31,11 @@ const services = [
      " 25+ years Reliability",
      " Smart Maintenance"
     ],
-    stats: {
-      installations: "500+",
-      satisfaction: "98%",
-      savings: "40%",
-    },
+    // stats: {
+    //   installations: "500+",
+    //   satisfaction: "98%",
+    //   savings: "40%",
+    // },
   },
   
   {
@@ -51,11 +51,11 @@ const services = [
 " Convenient & Time-Saving",
 " Less Maintenance"
     ],
-    stats: {
-      reliability: "99.9%",
-      response: "2hrs",
-      backup: "48hrs",
-    },
+    // stats: {
+    //   reliability: "99.9%",
+    //   response: "2hrs",
+    //   backup: "48hrs",
+    // },
   },
   {
     title: "Student Support",
@@ -71,11 +71,11 @@ const services = [
       "Prototyping support",
       "Career guidance"
     ],
-    stats: {
-      uptime: "99.9%",
-      response: "4hrs",
-      support: "24/7",
-    },
+    // stats: {
+    //   uptime: "99.9%",
+    //   response: "4hrs",
+    //   support: "24/7",
+    // },
   },
 ];
 
@@ -163,7 +163,7 @@ promises in shaping a greener and smarter future.
 
 
 
-                <div className="grid grid-cols-3 gap-4 pt-6">
+                {/* <div className="grid grid-cols-3 gap-4 pt-6">
                   {Object.entries(service.stats).map(([key, value]) => (
                     <div key={key} className="text-center">
                       <div className="text-2xl font-bold dark:text-blue-600 text-[#118B50]">
@@ -174,7 +174,7 @@ promises in shaping a greener and smarter future.
                       </div>
                     </div>
                   ))}
-                </div>
+                </div> */}
 
 
           <div className="pl-12 pt-8">    
