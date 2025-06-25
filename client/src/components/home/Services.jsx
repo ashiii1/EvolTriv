@@ -183,13 +183,10 @@ export function WobbleCardDemo() {
                   </motion.div>
                   <h2 className="text-2xl font-bold">Our Mission</h2>
                 </div>
-                <p className="text-gray-600 dark:text-white text-lg leading-relaxed ">
-Our mission is to empower communities and industries through sustainable solutions that
-integrate renewable energy, smart mobility, and hands-on technical innovation. We strive to
-bridge the gap between technology and real-world impact by delivering practical guidance,
-efficient systems, and forward-thinking solutions. As we grow, we are committed to expanding
-our services to new domains in sustainability, shaping a cleaner, smarter, and more resilient
-future for all                </p>
+               <p className="text-gray-600 dark:text-white text-lg leading-relaxed text-justify">
+Our mission is to empower communities and industries through sustainable practices that combine renewable energy, smart mobility, and hands-on innovation. We aim to bridge the gap between technology and real-world results by offering practical support, efficient systems, and future-ready solutions. As we grow, we’re dedicated to expanding our reach across new areas in sustainability, shaping a smarter, cleaner, and more resilient future for all.
+</p>
+
               </div>
             </motion.div>
 
@@ -210,11 +207,12 @@ future for all                </p>
                   </motion.div>
                   <h2 className="text-2xl font-bold">Our Vision</h2>
                 </div>
-                <p className="text-gray-600 text-lg leading-relaxed dark:text-white">
-To become a leader in sustainable innovation by driving the future of clean energy, smart mobility,
-and practical technology education. We envision a world where sustainability is accessible,
-innovation is hands-on, and every solution we create contributes to a healthier planet and a
-smarter tomorrow                </p>
+             <p className="text-gray-600 text-lg leading-relaxed dark:text-white text-justify">
+  Our vision is to lead in sustainable innovation by shaping the future of clean energy, smart mobility, and practical technology education. We imagine a world where sustainability is inclusive, innovation is applied, and every solution we build supports a healthier planet and a smarter tomorrow.
+</p>
+
+
+
               </div>
             </motion.div>
           </div>
