@@ -96,18 +96,27 @@ const Navbar = () => {
                 <img className="h-16 max-h-16 md:h-20 md:max-h-20" src={images.logo} alt="" />
               </Link>
             </motion.div>
-            <div className="flex items-center gap-4  ">
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                onClick={() => setIsOpen(!isOpen)}
-                className="md:hidden p-2  rounded-lg hover:bg-gray-100">
-                {isOpen ? (
-                  <X className="w-6 h-6 text-gray-600 dark:text-white dark:hover:text-black" />
-                ) : (
-                  <Menu className="w-6 h-6 text-gray-600 dark:text-white dark:hover:text-black" />
-                )}
-              </motion.button>
+
+
+ <div className="flex items-center gap-4 md:hidden order-last">
+            
+            
+            
+             <motion.button
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+    onClick={() => setIsOpen(!isOpen)}
+    className="p-2 rounded-lg hover:bg-gray-100"
+  >
+    {isOpen ? (
+      <X className="w-6 h-6 text-gray-600 dark:text-white dark:hover:text-black" />
+    ) : (
+      <Menu className="w-6 h-6 text-gray-600 dark:text-white dark:hover:text-black" />
+    )}
+  </motion.button>
+
+
+
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               {navItems.map((item) => (
@@ -168,18 +177,18 @@ const Navbar = () => {
               </div>
             </div>
 
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => setIsDark(!isDark)}
-              className="p-2 rounded-full  hover:bg-gray-100 dark:hover:bg-gray-700"
-            >
-              {isDark ? (
-                <Sun className="w-5 h-5 text-gray-600 dark:text-yellow-400 " />
-              ) : (
-                <Moon className="w-5 h-5 text-gray-600 dark:text-white" />
-              )}
-            </motion.button>
+           <motion.button
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+    onClick={() => setIsDark(!isDark)}
+    className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
+  >
+    {isDark ? (
+      <Sun className="w-5 h-5 text-gray-600 dark:text-yellow-400" />
+    ) : (
+      <Moon className="w-5 h-5 text-gray-600 dark:text-white" />
+    )}
+  </motion.button>
 
             {/* <div className="flex items-center gap-4">
               <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 rounded-lg hover:bg-gray-100">

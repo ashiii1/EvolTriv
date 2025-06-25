@@ -314,12 +314,10 @@ const AboutPage = () => {
           </div>
           <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
         </div>
-        <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-          Sustainability means using our resources—like energy and water—in a smart way so that we don’t harm the environment or run out of what we need. It’s about making choices today that help protect the earth for future generations.
-        </p>
-        <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mt-4">
-          We focus on clean energy, eco-friendly transport, and practical solutions that make life better without damaging nature. Our goal is to help people live smarter, save money, and take care of the planet—all at the same time.
-        </p>
+       <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+  Sustainability means using our resources—like energy and water—in a smart way so that we don’t harm the environment or run out of what we need. It’s about making choices today that help protect the earth for future generations. We focus on clean energy, eco-friendly transport, and practical solutions that make life better without damaging nature. Our goal is to help people live smarter, save money, and take care of the planet—all at the same time.
+</p>
+
       </div>
     </motion.div>
 
@@ -339,9 +337,11 @@ const AboutPage = () => {
           </div>
           <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
         </div>
-        <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-          EvolTriv specializes in solar PV consulting, design, and implementation for agricultural, residential, commercial, and industrial sectors, offering on-grid, off-grid, hybrid, and microgrid solutions. We also develop small-scale electric mobility solutions like e-bikes for sustainable transportation. Additionally, we empower students with hands-on training in renewable energy, e-mobility, and IoT, bridging the gap between theory and practice.
-        </p>
+      <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+  EvolTriv specializes in solar PV consulting, design, and implementation for agricultural, residential, commercial, and industrial sectors, offering on-grid, off-grid, hybrid, and microgrid solutions. We also develop small-scale electric mobility solutions like e-bikes for sustainable transportation. Additionally, we empower students with hands-on training in renewable energy, e-mobility, and IoT, bridging the gap between theory and practice.
+</p>
+
+
       </div>
     </motion.div>
   </div>
@@ -364,9 +364,9 @@ const AboutPage = () => {
             </div>
             <h2 className="text-2xl dark:text-gray-200 font-bold">Why Solar Energy?</h2>
           </div>
-          <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Solar energy is a key driver in achieving sustainability, reducing carbon footprints, and ensuring energy independence. It provides clean, renewable power for agricultural, residential, commercial, and industrial applications, reducing dependence on fossil fuels and lowering electricity costs.
-          </p>
+        <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+  Solar energy plays a vital role in promoting sustainability by lowering carbon emissions and supporting energy self-reliance. It delivers clean, renewable power to agricultural, residential, commercial, and industrial sectors—helping reduce reliance on fossil fuels and cutting down electricity expenses. Its long-term benefits include protecting the environment, offering reliable power access, and paving the way for a cleaner, more resilient energy future.
+</p>
         </div>
       </motion.div>
     </div>
@@ -442,8 +442,7 @@ const AboutPage = () => {
       <div className=" mx-auto pb-12 dark:bg-[#00005c] text-center px-4 pt-24 bg-gradient-to-b from-[#118B50]/10 to-transparent ">
         <h2 className="text-3xl font-bold mb-6">Ready to Go</h2>
         <p className="text-gray-600 dark:text-gray-200 mb-8">
-  Join us in building a sustainable future, whether it’s renewable energy, e-bike technology, hands-
-on training or consulting, let’s work together to drive innovation and create a greener future.
+  Join us in building a sustainable future, whether it’s renewable energy, e-bike technology, hands-on training or consulting, let’s work together to drive innovation and create a sustainable future.
 </p>
 
 {/* <CompanyAddressComponent/> */}
