@@ -314,9 +314,11 @@ const AboutPage = () => {
           </div>
           <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
         </div>
-       <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-  Sustainability means using our resources—like energy and water—in a smart way so that we don’t harm the environment or run out of what we need. It’s about making choices today that help protect the earth for future generations. We focus on clean energy, eco-friendly transport, and practical solutions that make life better without damaging nature. Our goal is to help people live smarter, save money, and take care of the planet—all at the same time.
+        
+<p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+Sustainability means using resources—like water and energy—wisely to avoid harming the environment or exhausting what's essential. It's about making smart choices today to protect the earth for tomorrow. We promote clean energy, green transport, and practical innovations that improve lives while safeguarding nature. Our mission is to help people live smarter, spend less, and support the planet—together.
 </p>
+
 
       </div>
     </motion.div>
@@ -337,9 +339,12 @@ const AboutPage = () => {
           </div>
           <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
         </div>
-      <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-  EvolTriv specializes in solar PV consulting, design, and implementation for agricultural, residential, commercial, and industrial sectors, offering on-grid, off-grid, hybrid, and microgrid solutions. We also develop small-scale electric mobility solutions like e-bikes for sustainable transportation. Additionally, we empower students with hands-on training in renewable energy, e-mobility, and IoT, bridging the gap between theory and practice.
+ <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed text-justify">
+  EvolTriv provides solar PV consulting, design, and deployment across agricultural, residential, commercial, and industrial segments. We deliver custom on-grid, off-grid, hybrid, and microgrid solutions suited for real-world power challenges. Our initiatives also include developing electric mobility tools like e-bikes and delivering student training in renewable energy, e-mobility, and IoT for hands-on industry learning.
 </p>
+
+
+
 
 
       </div>
@@ -364,9 +369,14 @@ const AboutPage = () => {
             </div>
             <h2 className="text-2xl dark:text-gray-200 font-bold">Why Solar Energy?</h2>
           </div>
-        <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-  Solar energy plays a vital role in promoting sustainability by lowering carbon emissions and supporting energy self-reliance. It delivers clean, renewable power to agricultural, residential, commercial, and industrial sectors—helping reduce reliance on fossil fuels and cutting down electricity expenses. Its long-term benefits include protecting the environment, offering reliable power access, and paving the way for a cleaner, more resilient energy future.
+
+    <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed text-justify">
+  Solar energy plays a powerful role in creating a greener planet by reducing carbon emissions and boosting energy self-reliance. It provides clean, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future.
 </p>
+
+
+
+
         </div>
       </motion.div>
     </div>
