@@ -116,7 +116,7 @@ const Footer = () => {
             Phone: 9705130846
           </p>
           <p className="text-[16px] opacity-75">
-            Address: Office No.9, Vijayawada, Andhra Pradesh, India
+            Address: Vijayawada, Andhra Pradesh, India
           </p>
         </div>
       </div>
