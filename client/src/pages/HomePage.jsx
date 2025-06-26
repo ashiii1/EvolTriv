@@ -9,12 +9,16 @@ import AboutPage from "../pages/AboutPage"
 import Gif from '../components/home/Gif'
 import FloatingContact from "../components/home/ContactLinks";
 import OurServices from "../components/home/OurServices";
+import ChatBotWidget from "../components/ChatBotWidget";
 
 const HomePage = () => {
   return (
     <main >
        <div className="relative">
+
        <FloatingContact />
+       <ChatBotWidget/>
+       
        </div>
       {/* <div><Hero /></div> */}
       <div ><WobbleCardDemo /></div>
