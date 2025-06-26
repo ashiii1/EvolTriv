@@ -119,7 +119,7 @@ const Footer = () => {
         {/* Logo */}
         <div className="flex flex-col gap-2">
           <img
-            src="/assets/Images/evoltriv.jpg" // Replace with your actual logo path
+            src="/favicon.jpg" // Replace with your actual logo path
             alt="EvolTriv Logo"
             className="h-32 w-auto object-contain"
           />
