@@ -85,10 +85,18 @@ const Navbar = () => {
 
   return (
     <>
-      <motion.nav
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        className={`fixed w-full z-50 dark:bg-[#0B0B45]  transition-all duration-300 ${isScrolled ? "bg-white shadow-lg" : "bg-white"}`}>
+   <motion.nav
+  initial={{ y: -100 }}
+  animate={{ y: 0 }}
+  className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "text-black dark:text-white" : "text-gray-600 dark:text-white"}
+  }`}
+>
+
+
+
+
+
+
         <div className=" mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex items-center justify-between h-16 md:h-20 ">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="flex-shrink-0">
