@@ -84,13 +84,43 @@ const routeMetadata = {
   },
 };
 
-const PageHelmet = ({ metadata }) => (
-  <Helmet>
-    <title>{metadata.title}</title>
-    <meta name="description" content={metadata.description} />
-    <meta name="keywords" content={metadata.keywords} />
-  </Helmet>
-);
+
+
+const PageHelmet = ({ metadata }) => {
+  const currentUrl = `https://www.evoltriv.com${window.location.pathname}`;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: metadata.title,
+    description: metadata.description,
+    url: currentUrl,
+  };
+
+  return (
+    <Helmet>
+      <title>{metadata.title}</title>
+      <meta name="description" content={metadata.description} />
+      <meta name="keywords" content={metadata.keywords} />
+      <link rel="canonical" href={currentUrl} />
+
+      {/* Open Graph */}
+      <meta property="og:title" content={metadata.title} />
+      <meta property="og:description" content={metadata.description} />
+      <meta property="og:url" content={currentUrl} />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://www.evoltriv.com/assets/Images/evoltriv.jpg" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={metadata.title} />
+      <meta name="twitter:description" content={metadata.description} />
+      <meta name="twitter:image" content="https://www.evoltriv.com/assets/Images/evoltriv.jpg" />
+
+      {/* Schema.org */}
+      <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+    </Helmet>
+  );
+};
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -102,7 +132,7 @@ const ScrollToTop = () => {
 
 const App = () => {
   return (
-    <>
+    <>   
       <ScrollToTop />
       <Routes>
         <Route element={<UserLayout />}>
