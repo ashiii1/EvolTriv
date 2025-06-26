@@ -116,7 +116,7 @@
 
 import React, { useState } from 'react';
 import { FaComments, FaTimes, FaRobot } from 'react-icons/fa';
-import qaData from '../data/qaData'; // ✅ import the separate JSON
+import qaData from '../../src/data/qadata'; // ✅ import the separate JSON
 
 const ChatBotWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
