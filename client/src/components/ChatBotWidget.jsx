@@ -201,17 +201,34 @@ const ChatBotWidget = () => {
           </div>
 
           {/* Prompt Buttons */}
-          <div className="flex flex-wrap gap-2 p-2 border-t bg-white">
-            {qaData.map((item, i) => (
-              <button
-                key={i}
-                onClick={() => handlePromptClick(item.keywords[0])}
-                className="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 text-xs px-2 py-1 rounded-full transition"
-              >
-                {item.keywords[0]}
-              </button>
-            ))}
-          </div>
+         {/* Custom Prompt Buttons */}
+<div className="flex flex-wrap gap-2 p-2 border-t bg-white">
+  <button
+    onClick={() => handlePromptClick('solar')}
+    className="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 text-xs px-2 py-1 rounded-full transition"
+  >
+    🌞 Solar
+  </button>
+  <button
+    onClick={() => handlePromptClick('e-bike')}
+    className="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 text-xs px-2 py-1 rounded-full transition"
+  >
+    🚲 E-Bike
+  </button>
+  <button
+    onClick={() => handlePromptClick('student training')}
+    className="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 text-xs px-2 py-1 rounded-full transition"
+  >
+    🧠 Student Training
+  </button>
+  <button
+    onClick={() => handlePromptClick('support')}
+    className="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 text-xs px-2 py-1 rounded-full transition"
+  >
+    🆘 Support
+  </button>
+</div>
+
 
           {/* Input Box */}
           <div className="flex items-center border-t p-2 bg-white">
