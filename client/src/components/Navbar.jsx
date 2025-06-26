@@ -88,20 +88,15 @@ const Navbar = () => {
    <motion.nav
   initial={{ y: -100 }}
   animate={{ y: 0 }}
-  className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "text-black dark:text-white" : "text-gray-600 dark:text-white"}
+  className={`fixed w-full  z-50 transition-all duration-300 ${isScrolled ? "text-black dark:text-white" : "text-gray-600  dark:text-white"}
   }`}
 >
-
-
-
-
-
 
         <div className=" mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex items-center justify-between h-16 md:h-20 ">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="flex-shrink-0">
               <Link to="/" className="flex items-center">
-                <img className="h-16 max-h-16 md:h-20 md:max-h-20" src={images.logo} alt="" />
+                <img className="h-16 max-h-16 md:h-20 md:max-h-20" src='/mainlogo.png' alt="" />
               </Link>
             </motion.div>
 
