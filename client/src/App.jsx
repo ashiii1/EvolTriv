@@ -27,11 +27,11 @@ import EventManagement from "@/pages/EventManagement";
 // SEO Metadata for each route
 const routeMetadata = {
   home: {
-    title: "EvolTriv | Sustainable Energy & E-Mobility Solutions",
+    title: "EvolTriv | Powering India with Affordable Solar, E-mobility & Smart Student Support",
     description:
-      "EvolTriv provides innovative solar PV solutions, e-bike manufacturing, and technical project consulting. We empower sustainability through clean energy and smart mobility.",
+      "EvolTriv brings affordable and high-efficient clean energy to your homes, institutions, and farms. From solar energy solutions to E-bikes and Student support, we make india's future smarter and greener.| Trusted by indian households , students and farmers. Join us in our mission to build a cleaner and smarter india",
     keywords:
-      "solar PV consulting, electric mobility, sustainable energy, e-bikes, renewable energy, EvolTriv",
+      "evoltriv, Solar, student support, indias biggest business, solar PV consulting, electric mobility, sustainable energy, e-bikes, renewable energy, EvolTriv",
   },
   about: {
     title: "About EvolTriv | Pioneering Clean Energy & Mobility",
