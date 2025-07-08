@@ -150,14 +150,14 @@ const Navbar = () => {
                 >
                   <Link
                     to="/gallery"
-                    className={`flex items-center dark:text-white gap-2 group-hover:text-[#118B50] ${isScrolled ? "text-black hover:text-[#00FFAA]" : "text-gray-600 hover:text-[#118B50]"}`}
+                    className={`flex text-white items-center dark:text-white gap-2 group-hover:text-[#118B50] ${isScrolled ? "text-black hover:text-[#00FFAA]" : "text-gray-600 hover:text-[#118B50]"}`}
                   >
                     <BookImage className="w-5 h-5" />
                     Gallery
                     <ChevronDown className="w-4 h-4" />
                   </Link>
                 </button>
-                <div className="absolute left-0 mt-2 w-48 dark:bg-blue-800 bg-white shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                <div className="absolute left-0 mt-2 w-48 dark:bg-blue-800 bg-[#C1D8C3] shadow-md rounded-md opacity-0 invisible group-hover:opacity-100  group-hover:visible transition-all duration-300">
                   <button
                     onClick={() =>
                       handleDownload(
@@ -165,15 +165,15 @@ const Navbar = () => {
                         "Brochure.pdf"
                       )
                     }
-                    className="block w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-black"
+                    className="block w-full text-left px-4 py-2 hover:bg-gray-500 dark:hover:bg-black"
                   >
                     📄 Brochure
                   </button>
 
-                  <button onClick={() => handleDownload("flyer.pdf")} className="block w-full dark:hover:bg-black text-left px-4 py-2 hover:bg-gray-100">
+                  <button onClick={() => handleDownload("flyer.pdf")} className="block w-full dark:hover:bg-black text-left px-4 py-2 hover:bg-gray-500">
                     📜 Flyer
                   </button>
-                  <button onClick={() => handleDownload("certifications.pdf")} className="block dark:hover:bg-black w-full text-left px-4 py-2 hover:bg-gray-100">
+                  <button onClick={() => handleDownload("certifications.pdf")} className="block dark:hover:bg-black w-full text-left px-4 py-2 hover:bg-gray-500">
                     🎓 Certifications
                   </button>
                 </div>
