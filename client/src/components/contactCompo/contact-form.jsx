@@ -902,7 +902,7 @@ export default function ContactUs() {
   return (
     <>
       <section
-        className={`bg-[url('/contactus-bg1.jpg')] bg-cover bg-center max-w-screen mx-[calc(50%-50vw)]
+        className={`bg-[url('/contactus-bg1.jpg')] bg-cover bg-[#C1D8C3] bg-center max-w-screen mx-[calc(50%-50vw)]
   grid grid-cols-1 lg:grid-cols-2 px-0 sm:px-4 md:px-8 lg:px-12 pt-0 mt-0 mb-0`}
         style={{ marginTop: '0px', paddingTop: '0px' }}
       >
@@ -933,7 +933,7 @@ export default function ContactUs() {
 
 
         {/* Right side: your emailjs react-hook-form form */}
-        <div className="flex justify-center items-center px-10 py-10">
+        <div className="flex justify-center items-center px-10 py-16">
           <Form {...form}>
             <form
               onSubmit={form.handleSubmit(onSubmit)}
