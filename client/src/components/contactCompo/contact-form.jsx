@@ -902,17 +902,17 @@ export default function ContactUs() {
   return (
     <>
       <section
-  className={`bg-[url('/contactus-bg1.jpg')] bg-cover bg-center max-w-screen mx-[calc(50%-50vw)]
+        className={`bg-[url('/contactus-bg1.jpg')] bg-cover bg-center max-w-screen mx-[calc(50%-50vw)]
   grid grid-cols-1 lg:grid-cols-2 px-0 sm:px-4 md:px-8 lg:px-12 pt-0 mt-0 mb-0`}
-  style={{ marginTop: '0px', paddingTop: '0px' }}
->
+        style={{ marginTop: '0px', paddingTop: '0px' }}
+      >
 
 
 
         {/* Left side info */}
         <div className="flex flex-col items-center justify-center py-2 mt-0">
           <h2 className="text-3xl font-bold mb-4 text-center">
-Contact Our Team
+            Contact Our Team
           </h2>
           <img
             src="https://www.shutterstock.com/image-vector/call-center-online-customer-support-600nw-2221786753.jpg"
@@ -922,11 +922,11 @@ Contact Our Team
             className="w-[400px] h-auto mb-4"
           />
           <p className="text-xl font-semibold text-center">
-Empowering ideas with EvolTriv
+            Empowering ideas with EvolTriv
 
           </p>
-          <p className="text-center text-gray-600 mt-2 max-w-md">
-           We help you bring your vision to life with innovative solutions and a dedicated team that supports your journey.
+          <p className="text-center text-gray-500 dark:text-gray-300 mt-2 max-w-md">
+            We help you bring your vision to life with innovative solutions and a dedicated team that supports your journey.
           </p>
         </div>
 
@@ -1027,7 +1027,7 @@ Empowering ideas with EvolTriv
                 )}
               />
 
-              <Button type="submit" className="w-full bg-[#118B50] dark:bg-white hover:bg-pcolor/90" disabled={isSubmitting}>
+              <Button type="submit" className="w-full bg-green-300 text-black dark:bg-blue-900 dark:text-white hover:bg-pcolor/90" disabled={isSubmitting}>
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </form>
