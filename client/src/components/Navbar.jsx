@@ -309,7 +309,7 @@ const Navbar = () => {
         </AnimatePresence>
 
       </motion.nav>
-      <div className="h-16 md:h-20" />
+<div className="h-8 md:h-12" />
     </>
   );
 };
