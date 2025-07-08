@@ -87,10 +87,11 @@ const milestones = [
 const TimelineSection = () => {
   return (
     <section></section>
-  )}
-    // <section className="py-20 bg-gradient-to-b from-white to-gray-50">
-    //   <div className="max-w-7xl mx-auto px-4">
-        {/* <motion.div
+  )
+}
+// <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+//   <div className="max-w-7xl mx-auto px-4">
+{/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -104,7 +105,7 @@ const TimelineSection = () => {
           </p>
         </motion.div> */}
 
-        {/* <div className="relative">
+{/* <div className="relative">
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#118B50] to-[#118B50] rounded-full hidden md:block" />
 
           {milestones.map((milestone, index) => (
@@ -152,8 +153,8 @@ const TimelineSection = () => {
                   </motion.div>
                 </div> */}
 
-                {/* Timeline Node */}
-                {/* <div className="hidden md:flex w-8 h-8 absolute left-1/2 transform -translate-x-1/2">
+{/* Timeline Node */ }
+{/* <div className="hidden md:flex w-8 h-8 absolute left-1/2 transform -translate-x-1/2">
                   <motion.div
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
@@ -162,8 +163,8 @@ const TimelineSection = () => {
                   />
                 </div> */}
 
-                {/* Spacer for opposite side */}
-                {/* <div className="md:w-1/2" />
+{/* Spacer for opposite side */ }
+{/* <div className="md:w-1/2" />
               </div>
             </motion.div>
           ))}
@@ -176,8 +177,8 @@ const TimelineSection = () => {
           />
         </div> */}
 
-        {/* Future Vision */}
-        {/* <motion.div
+{/* Future Vision */ }
+{/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -188,10 +189,10 @@ const TimelineSection = () => {
 </p>
 
         </motion.div> */}
-    //   </div>
-    // </section>
-   
-  
+//   </div>
+// </section>
+
+
 
 const AboutPage = () => {
   const fadeInUp = {
@@ -206,8 +207,8 @@ const AboutPage = () => {
   //   { number: "50+", label: "Expert Team" },
   //   { number: "24/7", label: "Support" },
   // ];
- 
-  
+
+
   const achievements = [
     "500+ Solar Installations for Homes & Businesses",
     "10MW+ Clean Energy Generated Through Solar Solutions",
@@ -216,7 +217,7 @@ const AboutPage = () => {
     "50+ Successful Collaborations with Industries & Institutions",
     "Recognized for Advancing Green Technology & Education",
   ];
-  
+
 
   return (
     <div className=" bg-gradient-to-b from-[#118B50]/10 to-transparent pt-48 dark:bg-[#0B0B45]">
@@ -259,7 +260,7 @@ const AboutPage = () => {
             </motion.div>
 
             {/* Stats Section */}
-            {/* <motion.div
+      {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
@@ -281,11 +282,11 @@ const AboutPage = () => {
           </motion.div>
         </div>
       </div> */}
-{/* <div className="pb-24 w-full">
+      {/* <div className="pb-24 w-full">
 <Videoo/>
 </div> */}
       {/* Mission & Vision Section */}
-            {/* Why Section */}
+      {/* Why Section */}
 
 
 
@@ -295,93 +296,90 @@ const AboutPage = () => {
 
 
 
-     <div className="max-w-7xl mx-auto px-4 mb-20 mt-[-64px]">
-  {/* Top 2 cards */}
-  <div className="grid md:grid-cols-2 gap-8">
-    {/* Why Sustainability Card */}
-    <motion.div
-      initial={{ opacity: 0, x: -20 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      whileHover={{ y: -5 }}
-      className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
-    >
-      <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#118B50]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
-      <div className="relative">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="p-3 bg-[#118B50]/10 rounded-xl">
-            <Leaf className="text-[#118B50] dark:text-blue-700 w-6 h-6" />
-          </div>
-          <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
-        </div>
-        
-<p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-Sustainability means using resources—like water and energy—wisely to avoid harming the environment or exhausting what's essential. It's about making smart choices today to protect the earth for tomorrow. We promote clean energy, green transport, and practical innovations that improve lives while safeguarding nature. Our mission is to help people live smarter, spend less, and support the planet—together.
-</p>
+      <div className="max-w-7xl mx-auto px-4 mb-20 mt-[-64px]">
+        {/* Top 2 cards */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Why Sustainability Card */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -5 }}
+            className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
+          >
+            <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#118B50]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
+            <div className="relative">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-3 bg-[#118B50]/10 rounded-xl">
+                  <Leaf className="text-[#118B50] dark:text-blue-700 w-6 h-6" />
+                </div>
+                <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
+              </div>
 
-
-      </div>
-    </motion.div>
-
-    {/* Why EvolTriv Card */}
-    <motion.div
-      initial={{ opacity: 0, x: 20 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      whileHover={{ y: -5 }}
-      className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
-    >
-      <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#009a8d]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
-      <div className="relative">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="p-3 bg-[#118B50]/10 rounded-xl">
-            <Target className="text-[#009a8d] dark:text-blue-700 w-6 h-6" />
-          </div>
-          <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
-        </div>
- <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed text-justify">
-  EvolTriv provides solar PV consulting, design, and deployment across agricultural, residential, commercial, and industrial segments. We deliver custom on-grid, off-grid, hybrid, and microgrid solutions suited for real-world power challenges. Our initiatives also include developing electric mobility tools like e-bikes and delivering student training in renewable energy, e-mobility, and IoT for hands-on industry learning.
-</p>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                EvolTriv provides comprehensive solar PV consulting, precise system design, and seamless deployment tailored for agricultural, residential, commercial, and industrial sectors. We focus on delivering reliable, efficient, and innovative on-grid, off-grid, hybrid, and microgrid energy solutions built to handle real-world challenges and dynamic power demands. In addition to our core renewable energy expertise, we’re developing smart, sustainable, and cutting-edge electric mobility tools like advanced e-bikes and smart chargers, alongside specialized student training programs in solar technology, e-mobility systems, and IoT integration for practical, hands-on industry learning.
+              </p>
 
 
 
-
-
-      </div>
-    </motion.div>
-  </div>
-
-  {/* Bottom Card - Why Solar Energy */}
-  <div className="mt-8 flex justify-center">
-    <div className="w-full md:w-[48%]">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        whileHover={{ y: -5 }}
-        className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
-      >
-        <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#118B50]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
-        <div className="relative">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-3 bg-[#118B50]/10 rounded-xl">
-              <Sun className="text-[#118B50] dark:text-blue-700 w-6 h-6" />
             </div>
-            <h2 className="text-2xl dark:text-gray-200 font-bold">Why Solar Energy?</h2>
-          </div>
+          </motion.div>
 
-    <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed text-justify">
-  Solar energy plays a powerful role in creating a greener planet by reducing carbon emissions and boosting energy self-reliance. It provides clean, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future.
-</p>
+          {/* Why EvolTriv Card */}
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -5 }}
+            className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
+          >
+            <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#009a8d]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
+            <div className="relative">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-3 bg-[#118B50]/10 rounded-xl">
+                  <Target className="text-[#009a8d] dark:text-blue-700 w-6 h-6" />
+                </div>
+                <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
+              </div>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                EvolTriv provides comprehensive solar PV consulting, precise system design, and seamless deployment tailored for agricultural, residential, commercial, and industrial sectors. We focus on delivering reliable, efficient, and innovative on-grid, off-grid, hybrid, and microgrid energy solutions built to handle real-world challenges and dynamic power demands. In addition to our core renewable energy expertise, we’re developing smart, sustainable, and cutting-edge electric mobility tools like advanced e-bikes and smart chargers, alongside specialized student training programs in solar technology, e-mobility systems, and IoT integration for practical, hands-on industry learning and future-ready skills.
+              </p>
 
 
 
 
+
+            </div>
+          </motion.div>
         </div>
-      </motion.div>
-    </div>
-  </div>
-</div>
+
+        {/* Bottom Card - Why Solar Energy */}
+        <div className="mt-8 flex justify-center">
+          <div className="w-full md:w-[48%]">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -5 }}
+              className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
+            >
+              <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#118B50]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
+              <div className="relative">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="p-3 bg-[#118B50]/10 rounded-xl">
+                    <Sun className="text-[#118B50] dark:text-blue-700 w-6 h-6" />
+                  </div>
+                  <h2 className="text-2xl dark:text-gray-200 font-bold">Why Solar Energy?</h2>
+                </div>
+
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Solar energy plays a powerful role in creating a greener planet by reducing carbon emissions and boosting energy self-reliance. It provides clean, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future. Beyond lowering emissions, it empowers communities to harness local resources, strengthens grid stability during peak demand, and encourages sustainable economic growth. As technology advances, solar continues to unlock new opportunities, from smart grids and storage to electric mobility integration—building a future that is cleaner, more affordable, and more sustainable for everyone.</p>
+
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -411,14 +409,14 @@ Sustainability means using resources—like water and energy—wisely to avoid h
       {/* Journey Timeline */}
 
       <div className="pb-8">
-      <TimelineSection />
+        <TimelineSection />
       </div>
 
 
       <div className="overflow-hidden">
 
-<ImageLayout/>
-</div>
+        <ImageLayout />
+      </div>
 
       {/* Achievements */}
       {/* <div className="bg-[#118B50] text-white py-16 dark:bg-[#0B0B45] ">
@@ -444,7 +442,7 @@ Sustainability means using resources—like water and energy—wisely to avoid h
       </div> */}
 
 
-<Testimonnial/>
+      <Testimonnial />
 
 
 
@@ -452,19 +450,19 @@ Sustainability means using resources—like water and energy—wisely to avoid h
       <div className=" mx-auto pb-12 dark:bg-[#00005c] text-center px-4 pt-24 bg-gradient-to-b from-[#118B50]/10 to-transparent ">
         <h2 className="text-3xl font-bold mb-6">Ready to Go</h2>
         <p className="text-gray-600 dark:text-gray-200 mb-8">
-  Join us in building a sustainable future, whether it’s renewable energy, e-bike technology, hands-on training or consulting, let’s work together to drive innovation and create a sustainable future.
-</p>
+          Join us in building a sustainable future, whether it’s renewable energy, e-bike technology, hands-on training or consulting, let’s work together to drive innovation and create a sustainable future.
+        </p>
 
-{/* <CompanyAddressComponent/> */}
+        {/* <CompanyAddressComponent/> */}
 
-<Link to={"/contact"}>
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-[#118B50]  dark:bg-white dark:text-black text-white px-8 py-3 rounded-lg font-semibold flex items-center mx-auto hover:bg-[#008075] transition-colors">
-          Contact Us
-          <ArrowRight className="ml-2 h-5 w-5" />
-        </motion.button>
+        <Link to={"/contact"}>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-[#118B50]  dark:bg-white dark:text-black text-white px-8 py-3 rounded-lg font-semibold flex items-center mx-auto hover:bg-[#008075] transition-colors">
+            Contact Us
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </motion.button>
         </Link>
       </div>
 
