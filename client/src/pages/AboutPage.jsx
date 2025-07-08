@@ -316,7 +316,7 @@ const AboutPage = () => {
                 <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
               </div>
 
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-gray-700 text-sm leading-relaxed dark:text-white">
                 EvolTriv provides comprehensive solar PV consulting, precise system design, and seamless deployment tailored for agricultural, residential, commercial, and industrial sectors. We focus on delivering reliable, efficient, and innovative on-grid, off-grid, hybrid, and microgrid energy solutions built to handle real-world challenges and dynamic power demands. In addition to our core renewable energy expertise, we’re developing smart, sustainable, and cutting-edge electric mobility tools like advanced e-bikes and smart chargers, alongside specialized student training programs in solar technology, e-mobility systems, and IoT integration for practical, hands-on industry learning.
               </p>
 
@@ -341,7 +341,7 @@ const AboutPage = () => {
                 </div>
                 <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
               </div>
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-gray-700 text-sm leading-relaxed dark:text-white">
                 EvolTriv provides comprehensive solar PV consulting, precise system design, and seamless deployment tailored for agricultural, residential, commercial, and industrial sectors. We focus on delivering reliable, efficient, and innovative on-grid, off-grid, hybrid, and microgrid energy solutions built to handle real-world challenges and dynamic power demands. In addition to our core renewable energy expertise, we’re developing smart, sustainable, and cutting-edge electric mobility tools like advanced e-bikes and smart chargers, alongside specialized student training programs in solar technology, e-mobility systems, and IoT integration for practical, hands-on industry learning and future-ready skills.
               </p>
 
@@ -372,9 +372,9 @@ const AboutPage = () => {
                   <h2 className="text-2xl dark:text-gray-200 font-bold">Why Solar Energy?</h2>
                 </div>
 
-                <p className="text-gray-700 text-sm leading-relaxed">
-                  Solar energy plays a powerful role in creating a greener planet by reducing carbon emissions and boosting energy self-reliance. It provides clean, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future. Beyond lowering emissions, it empowers communities to harness local resources, strengthens grid stability during peak demand, and encourages sustainable economic growth. As technology advances, solar continues to unlock new opportunities, from smart grids and storage to electric mobility integration—building a future that is cleaner, more affordable, and more sustainable for everyone.</p>
-
+                <p className="text-gray-700 text-sm leading-relaxed dark:text-white">
+                  Solar energy plays a powerful role in creating a greener planet by reducing carbon emissions and boosting energy self-reliance. It provides clean, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future. Beyond lowering emissions, it empowers communities to harness local resources, strengthens grid stability during peak demand, and encourages sustainable economic growth. As technology advances, solar continues to unlock new opportunities, from smart grids and storage to electric mobility integration—building a future that is cleaner, more affordable, and more sustainable for everyone.
+                </p>
               </div>
             </motion.div>
           </div>

@@ -902,7 +902,7 @@ export default function ContactUs() {
   return (
     <>
       <section
-        className={`bg-[url('/contactus-bg1.jpg')] bg-cover bg-[#C1D8C3] bg-center max-w-screen mx-[calc(50%-50vw)]
+        className={`bg-[url('/contactus-bg1.jpg')] bg-cover bg-[#C1D8C3] dark:bg-black bg-center max-w-screen mx-[calc(50%-50vw)]
   grid grid-cols-1 lg:grid-cols-2 px-0 sm:px-4 md:px-8 lg:px-12 pt-0 mt-0 mb-0`}
         style={{ marginTop: '0px', paddingTop: '0px' }}
       >
