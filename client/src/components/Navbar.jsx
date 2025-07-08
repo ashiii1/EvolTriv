@@ -109,13 +109,15 @@ const Navbar = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setIsOpen(!isOpen)}
-                className="p-2 rounded-lg hover:bg-gray-100"
+                className="p-2 rounded-lg hover:bg-black"
               >
-                {isOpen ? (
-                  <X className="w-6 h-6 text-black dark:text-white dark:hover:text-black" />
-                ) : (
-                  <Menu className="w-6 h-6 text-white hover:text-gray-700 dark:text-white dark:hover:text-black" />
-                )}
+              {isOpen ? (
+  <X className={`w-6 h-6 ${isScrolled ? "text-black" : "text-white"} dark:text-white`} />
+) : (
+  <Menu className={`w-6 h-6 ${isScrolled ? "text-black" : "text-white"} dark:text-white`} />
+)}
+
+
               </motion.button>
 
 
@@ -184,13 +186,14 @@ const Navbar = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => setIsDark(!isDark)}
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-100"
+              className="p-2 rounded-full hover:bg-gray-500 dark:hover:bg-gray-100"
             >
               {isDark ? (
-                <Sun className="w-5 h-5 text-white  dark:text-yellow-500" />
-              ) : (
-                <Moon className="w-5 h-5 text-white hover:text-black dark:text-white" />
-              )}
+  <Sun className={`w-5 h-5 ${isScrolled ? "text-black" : "text-white"} dark:text-yellow-500`} />
+) : (
+  <Moon className={`w-5 h-5 ${isScrolled ? "text-black" : "text-white"}`} />
+)}
+
             </motion.button>
 
             {/* <div className="flex items-center gap-4">
@@ -227,7 +230,7 @@ const Navbar = () => {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden dark:bg-[#0B0B45]  bg-white border-t"
+              className="md:hidden dark:bg-[#0B0B45] text-black bg-white border-t"
             >
               <div className="px-4 py-2 space-y-1 ">
                 {navItems.map((item, index) => (
