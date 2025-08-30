@@ -305,7 +305,7 @@ import { motion } from "framer-motion";
 import OurServices from "./OurServices";
 
 // Import videos for Mission & Vision
-import missionVideo from "../../assets/Videos/missionn.mp4";
+import missionVideo from "../../assets/Videos/vision.mp4";
 import visionVideo from "../../assets/Videos/vision.mp4";
 
 const values = [
