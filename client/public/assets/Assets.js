@@ -15,7 +15,6 @@ import avatar from "./assets/Images/avatar.jpeg";
 import contact from "./assets/Images/contact.webp";
 import solar from "./Videos/solar.mp4"
 import cycling from "./Videos/cycling.mp4"
-import mission from "./Videos/mission.mp4";
 import vision from "./Videos/vision.mp4"
 
 export const images = {
@@ -38,6 +37,5 @@ export const videos = {
   evoltriv,
   solar,
   cycling,
-  mission,
   vision,
 };
