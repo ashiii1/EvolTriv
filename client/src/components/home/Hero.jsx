@@ -38,7 +38,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
                 className="text-xl font-bold text-gray-900 lg:text-xl xl:text-5xl">
-               Driving the Future with {" "}
+                Driving the Future with {" "}
                 <span className="text-[#118B50]">Clean Energy, Smart Mobility, and Hands-On Learning</span>
               </motion.h1>
 
@@ -102,18 +102,18 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               className="relative">
-      <motion.div
-  initial={{ scale: 0.98 }}
-  animate={{ scale: 1.05 }}
-  transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" }}
-  className="relative rounded-2xl overflow-hidden w-full md:w-4/5 mx-auto"
->
-  <img
-    className="w-full h-auto object-cover pb-28"
-    src={images.hero_image}
-    alt="Solar Installation"
-  />
-</motion.div>
+              <motion.div
+                initial={{ scale: 0.98 }}
+                animate={{ scale: 1.05 }}
+                transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" }}
+                className="relative rounded-2xl overflow-hidden w-full md:w-4/5 mx-auto"
+              >
+                <img
+                  className="w-full h-auto object-cover pb-28"
+                  src={images.hero_image}
+                  alt="Solar Installation"
+                />
+              </motion.div>
 
 
 

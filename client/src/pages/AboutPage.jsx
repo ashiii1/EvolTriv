@@ -372,9 +372,10 @@ const AboutPage = () => {
                   <h2 className="text-2xl dark:text-gray-200 font-bold">Why Solar Energy?</h2>
                 </div>
 
-                <p className="text-gray-700 text-sm leading-relaxed dark:text-white">
-                  Solar energy plays a powerful role in creating a greener planet by reducing carbon emissions and boosting energy self-reliance. It provides clean, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future. Beyond lowering emissions, it empowers communities to harness local resources, strengthens grid stability during peak demand, and encourages sustainable economic growth. As technology advances, solar continues to unlock new opportunities, from smart grids and storage to electric mobility integration—building a future that is cleaner, more affordable, and more sustainable for everyone.
-                </p>
+<p className="text-gray-700 text-sm leading-[1.65] text-justify dark:text-white [text-wrap:balance]">
+  Solar energy plays a powerful role in creating a greener and smarter planet by reducing harmful carbon emissions and boosting long-term energy self-reliance. It provides clean, affordable, renewable power to farms, homes, businesses, and factories—minimizing the use of fossil fuels and lowering overall long-term electricity bills. Solar also protects ecosystems, improves energy access, and drives a cleaner, more resilient energy future. Beyond just lowering emissions, it empowers communities to harness local energy resources, strengthens grid stability during peak demand, and encourages sustainable and inclusive economic growth. As technology advances, solar continues to unlock exciting new opportunities—from smart grids and energy storage to electric mobility integration—building a future that is cleaner, more affordable, and more sustainable for everyone.
+</p>
+
               </div>
             </motion.div>
           </div>
@@ -447,24 +448,37 @@ const AboutPage = () => {
 
 
       {/* Call to Action */}
-      <div className=" mx-auto pb-12 dark:bg-[#00005c] text-center px-4 pt-24 bg-gradient-to-b from-[#118B50]/10 to-transparent ">
-        <h2 className="text-3xl font-bold mb-6">Ready to Go</h2>
-        <p className="text-gray-600 dark:text-gray-200 mb-8">
-          Join us in building a sustainable future, whether it’s renewable energy, e-bike technology, hands-on training or consulting, let’s work together to drive innovation and create a sustainable future.
-        </p>
+     <div
+  className="mx-auto pb-12 text-center px-4 pt-24 relative"
+  style={{
+    backgroundImage: "url('/assets/Images/gbanner.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* Gradient overlay */}
+  <div className="absolute inset-0 bg-gradient-to-b from-[#118B50]/40 to-black/40"></div>
 
-        {/* <CompanyAddressComponent/> */}
+  {/* Content */}
+  <div className="relative z-10 max-w-3xl mx-auto text-white">
+    <h2 className="text-3xl font-bold mb-6">Ready to Go</h2>
+    <p className="text-gray-200 mb-8 text-lg leading-relaxed">
+      Join us in building a sustainable future. Whether it’s renewable energy, e-bike technology, hands-on training, or consulting, let’s work together to drive innovation and create a greener tomorrow.
+    </p>
 
-        <Link to={"/contact"}>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-[#118B50]  dark:bg-white dark:text-black text-white px-8 py-3 rounded-lg font-semibold flex items-center mx-auto hover:bg-[#008075] transition-colors">
-            Contact Us
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </motion.button>
-        </Link>
-      </div>
+    <Link to={"/contact"}>
+      <motion.button
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="bg-[#118B50] dark:bg-white dark:text-black text-white px-8 py-3 rounded-lg font-semibold flex items-center mx-auto hover:bg-[#008075] transition-colors"
+      >
+        Contact Us
+        <ArrowRight className="ml-2 h-5 w-5" />
+      </motion.button>
+    </Link>
+  </div>
+</div>
+
 
       {/* <div className="pb-64 pt-24">
 <Gif/>

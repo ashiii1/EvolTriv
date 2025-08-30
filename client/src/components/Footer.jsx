@@ -114,7 +114,7 @@ const Footer = () => {
   ];
 
   return (
-<footer className="w-full dark:bg-[#00005c] mx-auto bg-[#000000] mt-0 mb-0 py-6 md:py-12 rounded-lg md:rounded-xl text-white">
+<footer className="w-full mx-auto mt-0 mb-0 py-6 md:py-12 rounded-lg md:rounded-xl text-black dark:text-white dark:bg-[#00005c] bg-gradient-to-b from-[#118B50]/10 to-[#118B50] dark:bg-none dark:from-transparent dark:to-transparent">
       <div className="w-[90vw] mx-auto grid gap-y-10 gap-x-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {/* Logo */}
         <div className="flex flex-col gap-2">
@@ -157,7 +157,7 @@ const Footer = () => {
         {/* About Us at far right */}
         <div>
           <h4 className="text-lg font-medium pb-1">About Us</h4>
-          <p className="text-[16px] leading-[1.15] opacity-95">
+          <p className="text-[16px]  opacity-75 ">
             EvolTriv delivers high-efficient, cost-effective renewable energy
             solutions, eco-friendly e-mobility services, and practical training
             and consulting for students and businesses seeking to embrace

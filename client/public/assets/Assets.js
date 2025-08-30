@@ -13,6 +13,10 @@ import backuppower from "./assets/Images/backuppower.jpg";
 import services from "./assets/Images/services.jpg";
 import avatar from "./assets/Images/avatar.jpeg";
 import contact from "./assets/Images/contact.webp";
+import solar from "./Videos/solar.mp4"
+import cycling from "./Videos/cycling.mp4"
+import mission from "./Videos/mission.mp4";
+import vision from "./Videos/vision.mp4"
 
 export const images = {
   logo_green,
@@ -32,4 +36,8 @@ export const images = {
 export const videos = {
   animation,
   evoltriv,
+  solar,
+  cycling,
+  mission,
+  vision,
 };
