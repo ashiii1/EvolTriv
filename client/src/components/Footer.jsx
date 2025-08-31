@@ -114,7 +114,7 @@ const Footer = () => {
   ];
 
   return (
-<footer className="w-full mx-auto mt-0 mb-0 py-6 md:py-12 rounded-lg md:rounded-xl text-black dark:text-white dark:bg-[#00005c] bg-gradient-to-b from-[#118B50]/10 to-[#118B50] dark:bg-none dark:from-transparent dark:to-transparent">
+<footer className="w-full mx-auto mt-0 mb-0 pt-0 py-4 md:py-6 rounded-lg md:rounded-xl text-black dark:text-white dark:bg-[#00005c] bg-gradient-to-b from-[#118B50]/10 to-[#118B50] dark:bg-none dark:from-transparent dark:to-transparent">
       <div className="w-[90vw] mx-auto grid gap-y-10 gap-x-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {/* Logo */}
         <div className="flex flex-col gap-2">
@@ -167,7 +167,7 @@ const Footer = () => {
       </div>
 
       {/* Follow Us Section at Bottom Centered */}
-      <div className="mt-10 flex flex-col items-center">
+      <div className="mt-2 flex flex-col items-center">
         <h4 className="text-lg font-medium pb-3">Follow us</h4>
         <div className="flex gap-4">
          <div className="w-7 h-7 rounded border border-zinc-300 flex justify-center items-center icon-hover pl-1">

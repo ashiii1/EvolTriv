@@ -507,7 +507,7 @@ export function WobbleCardDemo() {
         </div>
 
         {/* core values */}
-        <div className="bg-gradient-to-b to-[#118B50]/10 from-transparent dark:bg-[#00005c] pb-24 pt-0">
+        {/* <div className="bg-gradient-to-b to-[#118B50]/10 from-transparent dark:bg-[#00005c] pb-24 pt-0">
           <div className="max-w-7xl mx-auto px-4 ">
             <h2 className="text-3xl font-bold text-center mb-12">
               Our Core Values
@@ -528,7 +528,7 @@ export function WobbleCardDemo() {
             </div>
           </div>
         </div>
-
+ */}
 
         <OurServices />
 

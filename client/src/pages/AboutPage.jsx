@@ -296,65 +296,55 @@ const AboutPage = () => {
 
 
 
-      <div className="max-w-7xl mx-auto px-4 mb-20 mt-[-64px]">
-        {/* Top 2 cards */}
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Why Sustainability Card */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            whileHover={{ y: -5 }}
-            className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
-          >
-            <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#118B50]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
-            <div className="relative">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 bg-[#118B50]/10 rounded-xl">
-                  <Leaf className="text-[#118B50] dark:text-blue-700 w-6 h-6" />
-                </div>
-                <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
-              </div>
-
-              <p className="text-gray-700 text-sm leading-relaxed dark:text-white">
-                EvolTriv provides comprehensive solar PV consulting, precise system design, and seamless deployment tailored for agricultural, residential, commercial, and industrial sectors. We focus on delivering reliable, efficient, and innovative on-grid, off-grid, hybrid, and microgrid energy solutions built to handle real-world challenges and dynamic power demands. In addition to our core renewable energy expertise, we’re developing smart, sustainable, and cutting-edge electric mobility tools like advanced e-bikes and smart chargers, alongside specialized student training programs in solar technology, e-mobility systems, and IoT integration for practical, hands-on industry learning.
-              </p>
-
-
-
-            </div>
-          </motion.div>
-
-          {/* Why EvolTriv Card */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            whileHover={{ y: -5 }}
-            className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden group h-full"
-          >
-            <div className="absolute dark:bg-blue-900 top-0 right-0 w-40 h-40 bg-[#009a8d]/5 rounded-full transform translate-x-20 -translate-y-20 group-hover:scale-150 transition-transform duration-500" />
-            <div className="relative">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 bg-[#118B50]/10 rounded-xl">
-                  <Target className="text-[#009a8d] dark:text-blue-700 w-6 h-6" />
-                </div>
-                <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed dark:text-white">
-                EvolTriv provides comprehensive solar PV consulting, precise system design, and seamless deployment tailored for agricultural, residential, commercial, and industrial sectors. We focus on delivering reliable, efficient, and innovative on-grid, off-grid, hybrid, and microgrid energy solutions built to handle real-world challenges and dynamic power demands. In addition to our core renewable energy expertise, we’re developing smart, sustainable, and cutting-edge electric mobility tools like advanced e-bikes and smart chargers, alongside specialized student training programs in solar technology, e-mobility systems, and IoT integration for practical, hands-on industry learning and future-ready skills.
-              </p>
-
-
-
-
-
-            </div>
-          </motion.div>
+     <div className="max-w-7xl mx-auto px-4 mb-10 mt-[-40px]">
+  {/* Top 2 cards */}
+  <div className="grid md:grid-cols-2 gap-6">
+    {/* Why Sustainability Card */}
+    <motion.div
+      initial={{ opacity: 0, x: -20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      whileHover={{ y: -5 }}
+      className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border border-gray-100 relative overflow-hidden group h-full"
+    >
+      <div className="absolute dark:bg-blue-900 top-0 right-0 w-32 h-32 bg-[#118B50]/5 rounded-full transform translate-x-16 -translate-y-16 group-hover:scale-125 transition-transform duration-500" />
+      <div className="relative">
+        <div className="flex items-center gap-2 mb-2">
+          <div className="p-2 bg-[#118B50]/10 rounded-lg">
+            <Leaf className="text-[#118B50] dark:text-blue-700 w-6 h-6" />
+          </div>
+          <h2 className="text-2xl dark:text-gray-200 font-bold">Why Sustainability?</h2>
         </div>
+        <p className="text-gray-700 text-base leading-relaxed dark:text-white">
+We deliver efficient solar energy solutions that are designed to meet the modern world’s growing demands for sustainability and reliability. Our approach focuses on integrating smart mobility tools that address real-world challenges faced by individuals, businesses, and communities. By combining technology with eco-friendly practices, we ensure that clean energy becomes both accessible and practical. Every solution we build is aimed at reducing carbon impact while enhancing efficiency and performance. Together, we are creating a sustainable and future-ready ecosystem that empowers people to thrive responsibly.        </p>
+      </div>
+    </motion.div>
+
+    {/* Why EvolTriv Card */}
+    <motion.div
+      initial={{ opacity: 0, x: 20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      whileHover={{ y: -5 }}
+      className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border border-gray-100 relative overflow-hidden group h-full"
+    >
+      <div className="absolute dark:bg-blue-900 top-0 right-0 w-32 h-32 bg-[#009a8d]/5 rounded-full transform translate-x-16 -translate-y-16 group-hover:scale-125 transition-transform duration-500" />
+      <div className="relative">
+        <div className="flex items-center gap-2 mb-2">
+          <div className="p-2 bg-[#118B50]/10 rounded-lg">
+            <Target className="text-[#009a8d] dark:text-blue-700 w-6 h-6" />
+          </div>
+          <h2 className="text-2xl dark:text-gray-200 font-bold">Why EvolTriv?</h2>
+        </div>
+        <p className="text-gray-700 text-base leading-relaxed dark:text-white">
+
+         At EvolTriv, we bring together renewable energy expertise and innovative thinking to create meaningful change in the way energy and mobility work. Our mission goes beyond technology, as we focus on building sustainable practices that have a lasting impact on people and the planet. From e-mobility solutions to renewable training programs, we aim to empower individuals and organizations with tools for the future. With every project, we strive to blend innovation with practicality, ensuring that our solutions are not just visionary but also effective. By doing so, we move closer to a greener, smarter, and more resilient tomorrow.  </p>
+      </div>
+    </motion.div>
+  </div>
 
         {/* Bottom Card - Why Solar Energy */}
-        <div className="mt-8 flex justify-center">
+        {/* <div className="mt-8 flex justify-center">
           <div className="w-full md:w-[48%]">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -379,7 +369,7 @@ const AboutPage = () => {
               </div>
             </motion.div>
           </div>
-        </div>
+        </div> */}
       </div>
 
 
@@ -462,7 +452,7 @@ const AboutPage = () => {
   {/* Content */}
   <div className="relative z-10 max-w-3xl mx-auto text-white">
     <h2 className="text-3xl font-bold mb-6">Ready to Go</h2>
-    <p className="text-gray-200 mb-8 text-lg leading-relaxed">
+    <p className="text-gray-200 mb-6 text-lg leading-relaxed">
       Join us in building a sustainable future. Whether it’s renewable energy, e-bike technology, hands-on training, or consulting, let’s work together to drive innovation and create a greener tomorrow.
     </p>
 
@@ -470,7 +460,7 @@ const AboutPage = () => {
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="bg-[#118B50] dark:bg-white dark:text-black text-white px-8 py-3 rounded-lg font-semibold flex items-center mx-auto hover:bg-[#008075] transition-colors"
+        className="bg-[#118B50] dark:bg-white dark:text-black text-white  px-8 py-3 rounded-lg font-semibold flex items-center mx-auto hover:bg-[#008075] transition-colors"
       >
         Contact Us
         <ArrowRight className="ml-2 h-5 w-5" />
