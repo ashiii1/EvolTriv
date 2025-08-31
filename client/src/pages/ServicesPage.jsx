@@ -246,7 +246,7 @@ import {
 import { Link } from "react-router-dom";
 
 // Import videos from src
-import solarVideo from "../assets/Videos/solar.mp4";
+import solarVideo from "../assets/Videos/solarr.webm";
 import electricVideo from "../assets/Videos/cycling.mp4";
 import studentVideo from "../assets/Videos/student.mp4";
 

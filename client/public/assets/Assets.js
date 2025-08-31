@@ -13,9 +13,10 @@ import backuppower from "./assets/Images/backuppower.jpg";
 import services from "./assets/Images/services.jpg";
 import avatar from "./assets/Images/avatar.jpeg";
 import contact from "./assets/Images/contact.webp";
-import solar from "./Videos/solar.mp4"
+import solar from "./Videos/solarr.webm"
 import cycling from "./Videos/cycling.mp4"
 import vision from "./Videos/vision.mp4"
+import mission from "./Videos/missionnew.webm"
 
 export const images = {
   logo_green,
@@ -38,4 +39,5 @@ export const videos = {
   solar,
   cycling,
   vision,
+  mission
 };
