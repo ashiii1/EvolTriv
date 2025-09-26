@@ -1552,7 +1552,7 @@ import {
   SelectValue,
 } from "../ui/select";
 import { useToast } from "../ui/use-toast";
-import vision from "../../assets/Videos/vision.mp4"
+import vision from "../../assets/Videos/contact.mp4"
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -1676,7 +1676,7 @@ export default function ContactUs() {
   style={{ backgroundImage: "url('/assets/Images/cbg2.jpg')" }}
 >
       <section className="container mx-auto flex justify-center py-16 px-6">
-          <div className="bg-white shadow-lg rounded-xl p-8 w-full md:w-2/3 lg:w-1/2">
+          <div className=" shadow-lg rounded-xl p-8 w-full md:w-2/3 lg:w-1/2">
             <Form {...form}>
               <form
                 onSubmit={form.handleSubmit(onSubmit)}
