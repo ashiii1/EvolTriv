@@ -10,8 +10,8 @@ const products = [
       "details": "Seven-line detailed description here...",
       "image": "/assets/Images/solarpv.jpg",
       "imageBeforeFeatures": "/assets/Images/b2.jpg",
-      "imageBeforeSpecs": "/assets/Images/b1.jpg",
-      "imageBeforeBenefits": "/assets/Images/b11.jpg",
+      "imageBeforeSpecs": "/assets/Images/s1.jpg",
+      "imageBeforeBenefits": "/assets/Images/s2.jpeg",
       "icon": "Sun",
      "features": [
         "Customized solar solutions tailored to site-specific and energy requirements",
@@ -44,10 +44,7 @@ const products = [
           "title": "Regulatory Compliance",
           "description": "Helps meet local, state, and national solar energy regulations seamlessly, avoiding delays and fines."
         },
-        {
-          "title": "Risk Reduction",
-          "description": "Minimizes project risks through detailed planning, feasibility studies, and technical analysis."
-        },
+       
         ]
     },
    {
@@ -56,8 +53,8 @@ const products = [
   "details": "Our Solar Rooftop Installation service provides efficient, eco-friendly energy generation directly on your property. We manage every step: site analysis, customized design, premium panel selection, expert installation, and reliable after-sales support. Using cutting-edge mounting systems, we ensure durability and optimal orientation for maximum energy output. Whether for residential, commercial, or industrial buildings, our installations lower electricity costs, promote sustainability, and deliver a quick return on investment. Our low-cost, best-quality, and fast service model guarantees excellence without delays or hidden costs.",
   "image": "/assets/Images/rooftopmain.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/s3.jpg",
+  "imageBeforeBenefits": "/assets/Images/s4.jpg",
   "icon": "Sun",
   "features": [
     "Customized rooftop solar solutions tailored to property requirements",
@@ -82,7 +79,6 @@ const products = [
     { "title": "Cost Savings", "description": "Reduce electricity bills by up to 70% with rooftop solar energy, ensuring long-term financial benefits." },
     { "title": "Renewable Energy", "description": "Generate clean, green power directly on-site, reducing carbon footprint and promoting sustainability." },
     { "title": "Energy Independence", "description": "Gain greater control over your energy needs and reduce reliance on the grid." },
-    { "title": "Smart Monitoring", "description": "Track and optimize system performance through advanced monitoring systems for peace of mind." },
      ]
 },
    
@@ -92,8 +88,8 @@ const products = [
   "details": "Our Ground-Mounted Solar Installation service is ideal for projects where space, scalability, and high energy output are critical. We offer a full-service solution that includes site evaluation, customized design, equipment procurement, installation, and post-installation support. Our systems feature fixed mounts as well as advanced single-axis and dual-axis tracking mechanisms to optimize sunlight capture. We ensure compliance with industry standards and regulations, and our projects are engineered for durability, low maintenance, and long-term performance. Whether for industrial plants, solar farms, or utility-scale power projects, we deliver a solution that combines low cost, best quality, and fast service for maximum impact.",
   "image": "/assets/Images/groundmounted.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/s5.jpg",
+  "imageBeforeBenefits": "/assets/Images/s6.jpg",
   "icon": "Sun",
   "features": [
     "High-capacity solar energy generation for large-scale projects",
@@ -110,7 +106,6 @@ const products = [
     "System Capacity": "100kW - 100MW",
     "Mounting Type": "Fixed / Single-axis / Dual-axis",
     "Lifespan": "25+ years",
-    "Installation Time": "4–12 Weeks (Depending on Project Size)"
   },
   "benefits": [
     {
@@ -125,10 +120,7 @@ const products = [
       "title": "Low Maintenance",
       "description": "Engineered for long-term use with minimal upkeep, reducing operational costs."
     },
-    {
-      "title": "High Output",
-      "description": "Optimized layouts and tracking technology ensure maximum power production efficiency."
-    },
+  
    
   ]
 },
@@ -139,8 +131,8 @@ const products = [
   "details": "Our Solar Microgrid Construction service offers complete planning, design, installation, and maintenance for off-grid and hybrid power systems. Each microgrid is custom-designed to match site-specific needs, integrating high-efficiency solar panels, lithium-ion or flow battery storage, and smart control systems. These microgrids are engineered for reliability and scalability, capable of providing continuous power even in remote or grid-challenged areas. We handle every stage of the project — from feasibility analysis and permitting to installation and commissioning — ensuring seamless delivery and long-term performance. Our service guarantees energy independence, cost savings, and reduced environmental impact.",
   "image": "/assets/Images/microgrid.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/s8.jpg",
+  "imageBeforeBenefits": "/assets/Images/s9.jpg",
   "icon": "Sun",
   "features": [
     "Custom-designed off-grid and hybrid solar microgrids",
@@ -172,22 +164,7 @@ const products = [
       "title": "Eco-Friendly",
       "description": "Generates clean energy to drastically reduce greenhouse gas emissions and environmental impact."
     },
-    {
-      "title": "Cost Efficiency",
-      "description": "Reduces long-term energy costs and avoids expensive grid expansion or upgrades."
-    },
-    {
-      "title": "Community Empowerment",
-      "description": "Supports rural electrification, industrial growth, and disaster resilience through sustainable energy."
-    },
-    {
-      "title": "Scalability",
-      "description": "Easily expandable to meet future energy demands as communities and businesses grow."
-    },
-    {
-      "title": "Resilience",
-      "description": "Designed to withstand extreme conditions and ensure continuous energy supply."
-    }
+    
   ]
 },
 
@@ -197,8 +174,8 @@ const products = [
   "details": "Our Solar Water Pump systems are engineered to provide sustainable and affordable water access for irrigation, drinking water, livestock, and industrial purposes. By eliminating reliance on electricity or diesel, they drastically cut costs and reduce environmental impact. Available in submersible and surface pump options, our solutions are tailored to your specific water needs. Using durable, corrosion-resistant materials and high-efficiency pump designs, these systems ensure consistent performance and long life. From feasibility assessment and custom design to installation and after-sales service, we deliver reliable water solutions that empower communities, farmers, and industries alike.",
   "image": "/assets/Images/waterpump.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/a2.jpg",
+  "imageBeforeBenefits": "/assets/Images/a3.jpg",
   "icon": "Sun",
   "features": [
     "Fully solar-powered operation with zero fuel or electricity needs",
@@ -214,8 +191,7 @@ const products = [
     "Power Range": "0.5HP - 10HP",
     "Pump Type": "Submersible / Surface",
     "Flow Rate": "Up to 60,000 liters per day (depending on configuration)",
-    "Lifespan": "10-20 years",
-    "Installation Time": "2–5 Days (Depending on Project Size)"
+  
   },
   "benefits": [
     {
@@ -230,10 +206,7 @@ const products = [
       "title": "Durable & Reliable",
       "description": "Built with robust, corrosion-resistant materials ensuring long-term performance."
     },
-    {
-      "title": "Energy Independence",
-      "description": "Enables communities, farmers, and industries to operate independently of grid power."
-    },
+   
    
   ]
 },
@@ -243,8 +216,8 @@ const products = [
   "details": "Our Solar Water Heater service covers end-to-end solutions, including system design, installation, and ongoing maintenance. We customize capacity and design based on your specific needs, whether for homes, hotels, hospitals, or industrial facilities. Featuring high heating efficiency of up to 95%, these systems ensure reliable hot water even during colder seasons or cloudy days. Built with robust stainless steel and copper tanks, they provide long-term durability and minimal upkeep. Integrated monitoring and smart controls allow efficient energy management, ensuring you save on costs while reducing your carbon footprint. With our commitment to low-cost, best-quality, and fast service, we provide a complete solution for sustainable water heating.",
   "image": "/assets/Images/waterheater.jpeg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/a4.jpg",
+  "imageBeforeBenefits": "/assets/Images/a5.jpg",
   "icon": "Sun",
   "features": [
     "High-efficiency solar heating systems delivering up to 95% thermal performance",
@@ -261,7 +234,6 @@ const products = [
     "Heating Efficiency": "80-95%",
     "Material": "Stainless Steel / Copper",
     "Installation Time": "2–5 Days (Depending on Capacity)",
-    "Lifespan": "15-25 years"
   },
   "benefits": [
     {
@@ -276,10 +248,7 @@ const products = [
       "title": "Reliable Hot Water Supply",
       "description": "Ensures consistent heating even during cloudy weather or colder climates."
     },
-    {
-      "title": "Low Maintenance",
-      "description": "Robust design with high-quality materials minimizes the need for frequent servicing."
-    },
+   
    
   ]
 },
@@ -289,8 +258,8 @@ const products = [
   "details": "We offer comprehensive cleaning and maintenance services tailored to residential, commercial, and industrial solar installations. Our process includes regular removal of dust, bird droppings, and debris using water jets and eco-friendly automated cleaning systems, ensuring panels stay spotless without damage. Beyond cleaning, we conduct preventative maintenance such as system health checks, performance monitoring, and fault detection. By scheduling quarterly or annual maintenance, clients maximize solar efficiency, avoid costly breakdowns, and extend system life. Our goal is to deliver low-cost, fast, and high-quality service so you can enjoy uninterrupted solar power for decades.",
   "image": "/assets/Images/solarpv.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/a6.jpg",
+  "imageBeforeBenefits": "/assets/Images/a7.jpg",
   "icon": "Sun",
   "features": [
     "Regular dust, dirt, and debris removal for maximum solar efficiency",
@@ -308,7 +277,6 @@ const products = [
     "Service Type": "Cleaning & Preventative Maintenance",
     "Frequency": "Quarterly / Annually (Custom Plans Available)",
     "Tools Used": "High-pressure water jets, automated robotic cleaners, eco-friendly agents",
-    "Panel Compatibility": "Monocrystalline / Polycrystalline / Thin-Film",
   },
   "benefits": [
     {
@@ -323,11 +291,7 @@ const products = [
       "title": "Long-Term Savings",
       "description": "Proper maintenance extends the lifespan of panels, reducing replacement and repair costs."
     },
-    {
-      "title": "Safe & Eco-Friendly",
-      "description": "Uses non-abrasive methods and eco-friendly cleaning techniques to protect panels and the environment."
-    },
-   
+    
   ]
 }
   ]
@@ -342,9 +306,9 @@ const products = [
   "description": "Our E-Bike Manufacturing service specializes in designing and producing high-performance electric bicycles that are perfect for both urban commuting and adventurous off-road riding. With a focus on sustainability, innovation, and rider comfort, we deliver cutting-edge e-bikes that combine power, style, and durability. Every model is engineered to provide maximum efficiency, smooth handling, and long-lasting reliability, making eco-friendly transportation accessible to everyone.",
   "details": "We offer end-to-end manufacturing of e-bikes, including frame design, motor integration, battery optimization, and smart technology features. Our bikes are crafted with lightweight yet durable materials to ensure comfort and strength. Customers can choose from various motor capacities, battery ranges, and design styles tailored to personal or commercial needs. With GPS integration, app connectivity, and safety-enhanced components, our e-bikes redefine the future of urban mobility. Our approach emphasizes low-cost, best-quality, and fast production, ensuring riders enjoy a sustainable, high-performance alternative to traditional transport.",
   "image": "/assets/Images/ebike.png",
-  "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeFeatures": "/assets/Images/c2.jpg",
+  "imageBeforeSpecs": "/assets/Images/c1.jpg",
+  "imageBeforeBenefits": "/assets/Images/c2.jpg",
   "icon": "Zap",
   "features": [
     "Custom frame designs optimized for strength and lightweight handling",
@@ -362,7 +326,7 @@ const products = [
     "Motor Power": "250W - 1000W",
     "Battery Capacity": "36V - 52V",
     "Range Per Charge": "40-120 km",
-    "Charging Time": "3-6 hours",
+    
     
   },
   "benefits": [
@@ -378,10 +342,6 @@ const products = [
       "title": "Smart Technology Integration",
       "description": "Advanced connectivity features like GPS tracking, Bluetooth, and mobile app integration enhance usability."
     },
-    {
-      "title": "Cost Efficiency",
-      "description": "Lower operational costs compared to fuel-powered vehicles, with minimal maintenance required."
-    },
    
   ]
 },
@@ -390,9 +350,9 @@ const products = [
   "description": "Our E-Bike Repair service provides comprehensive maintenance and repair solutions for all models and brands of electric bicycles. From minor tune-ups to major overhauls, we ensure your e-bike stays in top performance condition. Our expert technicians diagnose and fix issues quickly, using genuine parts and advanced tools. Whether you need battery replacement, motor servicing, or software updates, we deliver cost-effective, reliable, and fast repair solutions to get you back on the road without hassle.",
   "details": "We specialize in complete repair and maintenance services for electric bicycles, covering every component from the motor to the brakes. Our services include detailed diagnostics, battery testing and replacement, motor and controller repairs, tire and brake servicing, and advanced software troubleshooting. For added convenience, we offer both on-site repairs and remote support, ensuring riders never face unnecessary downtime. By providing quick turnaround times, affordable pricing, and high-quality workmanship, we help extend the lifespan of your e-bike and enhance its overall performance. Our low-cost, best-quality, and fast service approach makes us the go-to choice for e-bike riders.",
   "image": "/assets/Images/ebike2.jpg",
-  "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeFeatures": "/assets/Images/c3.jpg",
+  "imageBeforeSpecs": "/assets/Images/c3.jpg",
+  "imageBeforeBenefits": "/assets/Images/ebb.png",
   "icon": "Zap",
   "features": [
     "Battery diagnostics, capacity testing, and replacement with high-quality cells",
@@ -410,7 +370,6 @@ const products = [
     "Service Type": "Repair & Maintenance",
     "Coverage": "All E-Bike Brands",
     "Turnaround Time": "24-72 Hours",
-    "Warranty on Repairs": "6 Months",
    
   },
   "benefits": [
@@ -426,10 +385,7 @@ const products = [
       "title": "Cost-Effective Maintenance",
       "description": "Affordable service packages reduce costs compared to frequent replacements."
     },
-    {
-      "title": "Expert Support",
-      "description": "Experienced technicians provide professional solutions for complex mechanical and electronic issues."
-    },
+   
    
   ]
 },
@@ -438,9 +394,9 @@ const products = [
   "description": "Our E-Bike Conversion service allows you to upgrade your existing standard bicycle into a powerful electric bike using advanced conversion kits. This cost-effective solution gives riders the benefits of an e-bike without purchasing a brand-new model. With options for different motor powers, battery capacities, and assist modes, you can customize the experience to match your lifestyle and terrain. Easy installation and compatibility with most bike types make it a seamless transition to electric mobility.",
   "details": "We specialize in transforming traditional bicycles into modern e-bikes with our high-quality conversion kits. The process includes integrating an electric motor, battery system, controller, and display for smooth and powerful rides. Our kits feature plug-and-play designs for easy installation and compatibility with mountain bikes, road bikes, and commuter bikes. Riders can enjoy customizable pedal-assist levels, extended range, and faster commutes while reducing fatigue. This eco-friendly upgrade not only reuses your existing bicycle but also promotes sustainable transportation at an affordable cost. With professional installation and after-sales support, we ensure your converted e-bike delivers comfort, reliability, and performance.",
   "image": "/assets/Images/ebike3.jpg",
-  "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeFeatures": "/assets/Images/an1.jpg",
+  "imageBeforeSpecs": "/assets/Images/an1.jpg",
+  "imageBeforeBenefits": "/assets/Images/an2.jpg",
   "icon": "Zap",
   "features": [
     "Plug-and-play electric motor kits for easy installation",
@@ -458,7 +414,6 @@ const products = [
     "Motor Power": "250W - 750W",
     "Battery Capacity": "36V - 48V",
     "Range Per Charge": "40-80 km",
-    "Charging Time": "3-5 Hours",
    
   },
   "benefits": [
@@ -474,10 +429,7 @@ const products = [
       "title": "Customizable Experience",
       "description": "Choose motor power, battery size, and assist levels to match your riding style."
     },
-    {
-      "title": "Extended Range & Comfort",
-      "description": "Ride longer distances with less effort, perfect for daily commutes and leisure rides."
-    },
+   
    
   ]
 }
@@ -496,8 +448,8 @@ const products = [
   "details": "We organize specialized workshops that combine theory with live demonstrations and practical activities. Covering topics such as renewable energy, electric mobility, IoT, AI, robotics, and more, our workshops are tailored to meet industry standards. Sessions are led by experienced trainers and industry professionals, ensuring participants gain real-world exposure. Each workshop includes project-based activities, Q&A sessions, and networking opportunities to enhance overall learning and confidence. On successful completion, participants receive certification to showcase their achievements.",
   "image": "/assets/Images/stu1.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/srrumain.jpg",
+  "imageBeforeBenefits": "/assets/Images/d1.jpg",
   "icon": "Battery",
   "features": [
     "Expert-led sessions with real industry professionals",
@@ -528,10 +480,7 @@ const products = [
       "title": "Networking Opportunities",
       "description": "Directly connect with industry experts, mentors, and like-minded peers."
     },
-    {
-      "title": "Career Boost",
-      "description": "Certification adds credibility to your resume and improves career prospects."
-    }
+   
   ]
 },
 {
@@ -540,8 +489,8 @@ const products = [
   "details": "We offer structured internship programs that allow participants to gain hands-on experience across different domains such as renewable energy, e-mobility, software development, IoT, and more. Interns are assigned to real projects where they collaborate with professionals and learn industry best practices. Each internship includes mentorship sessions, progress tracking, and career guidance. With hybrid options, students can gain exposure both online and on-site. Selected candidates may also receive stipends based on performance and project contributions.",
   "image": "/assets/Images/stu2.jpg",
   "imageBeforeFeatures": "/assets/Images/b1.jpg",
-  "imageBeforeSpecs": "/assets/Images/b2.jpg",
-  "imageBeforeBenefits": "/assets/Images/b11.jpg",
+  "imageBeforeSpecs": "/assets/Images/st1.jpg",
+  "imageBeforeBenefits": "/assets/Images/st2.jpg",
   "icon": "Battery",
   "features": [
     "Opportunity to work on live, real-world projects",
@@ -557,7 +506,6 @@ const products = [
     "Duration": "1-6 Months",
     "Mode": "Hybrid (Online & Offline)",
     "Stipend": "Available for Selected Candidates",
-    "Domains": "EVs, Renewable Energy, Software, IoT, Robotics, and More"
   },
   "benefits": [
     {
@@ -572,14 +520,7 @@ const products = [
       "title": "Skill Development",
       "description": "Enhance problem-solving, teamwork, and communication skills crucial for career success."
     },
-    {
-      "title": "Industry Readiness",
-      "description": "Gain direct exposure to industry workflows, tools, and professional culture."
-    },
-    {
-      "title": "Certification & Recognition",
-      "description": "Earn a certificate that validates your work experience and boosts credibility."
-    }
+   
   ]
 }
 

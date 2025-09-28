@@ -1932,7 +1932,7 @@ export default function ContactUs() {
 </div>
 
       {/* App Promo */}
-      <div className="bg-white dark:bg-black dark:text-white py-10 px-6 text-center shadow-inner">
+      {/* <div className="bg-white dark:bg-black dark:text-white py-10 px-6 text-center shadow-inner">
         <h2 className="text-2xl font-bold mb-4">Download Our App</h2>
         <p className="mb-6">Book services easily through our mobile application</p>
         <div className="flex justify-center gap-6">
@@ -1955,7 +1955,7 @@ export default function ContactUs() {
             />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

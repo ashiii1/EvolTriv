@@ -734,7 +734,7 @@ const ProductDetailDialog = ({ product }) => {
        <div ref={brochureRef} className="mt-4 space-y-6 p-4 bg-white dark:bg-black">
   
   {/* Main Image */}
-  <img src={product.image} alt={product.name} className="w-full h-64 object-cover rounded-lg" />
+  <img src={product.image} alt={product.name} className="w-full h-64  object-cover rounded-lg" />
 
   {/* Image Before Key Features */}
   {product.imageBeforeFeatures && (
@@ -869,11 +869,11 @@ const ProductsPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white w-full overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 py-16 w-full overflow-hidden dark:bg-[#0B0B45]">
+    <div className="min-h-screen bg-[#C1D8C3] w-full overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4  pt-32  py-16 w-full overflow-hidden dark:bg-[#0B0B45]">
         <Tabs defaultValue={selectedCategory} className="space-y-8">
           <div className="flex justify-center overflow-hidden bg-black sm:bg-gray-200 w-full sm:w-fit mx-auto">
-            <TabsList className="flex justify-center items-center px-2 flex-nowrap scale-75 sm:scale-100 h-8 bg-gray-800 sm:bg-gray-300 text-white sm:text-black">
+            <TabsList className="flex justify-center items-center px-2 flex-nowrap scale-75 sm:scale-100 h-8 bg-gray-800 bg-[#C1D8C3] text-white sm:text-black">
               <TabsTrigger value="All" onClick={() => setSelectedCategory("All")}>All Services</TabsTrigger>
               {products.map((category) => (
                 <TabsTrigger key={category.id} value={category.category} onClick={() => setSelectedCategory(category.category)}>
@@ -884,7 +884,7 @@ const ProductsPage = () => {
           </div>
 
           <TabsContent value="All">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {getAllProducts().map((product) => <ProductCard key={product.name} product={product} />)}
             </div>
           </TabsContent>

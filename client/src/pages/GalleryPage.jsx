@@ -35,8 +35,8 @@ const galleryData = [
 
 const GalleryPage = () => {
   return (
-    <div className=" bg-gradient-to-b from-[#118B50]/10 to-transparent mx-auto px-4 py-10">
-      <h2 className="text-4xl font-bold text-center mb-10">Gallery</h2>
+    <div className=" bg-[#C1D8C3]  to-transparent mx-auto px-4 py-10">
+      <h2 className="text-4xl font-bold text-center pt-12 mb-10">Gallery</h2>
       <div className="space-y-12">
         {galleryData.map((item, index) => (
           <div
