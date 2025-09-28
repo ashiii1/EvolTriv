@@ -48,7 +48,7 @@ const ImageSlider = () => {
   const [isPausedRight, setIsPausedRight] = useState(false);
 
   return (
-    <section className="bg-white py-12 space-y-12 dark:bg-black bg-gradient-to-b from-[#118B50]/10 to-transparent">
+    < >
       {/* Left to Right Infinite Scrolling */}
       {/* <h2 className="text-3xl font-bold text-center mb-12">
             Blogs
@@ -130,7 +130,7 @@ const ImageSlider = () => {
           }
         `}
       </style> */}
-    </section>
+    </>
   );
 };
 
