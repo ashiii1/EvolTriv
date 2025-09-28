@@ -17,7 +17,7 @@ import solar from "./Videos/solarr.webm";
 import cycling from "./Videos/cycling.mp4";
 import vision from "./Videos/vision.mp4"
 import mission from "./Videos/missionnew.webm";
-import contact from "./Videos/contact.mp4";
+import contactt from "./Videos/contact.mp4";
 
 export const images = {
   logo_green,
@@ -41,5 +41,5 @@ export const videos = {
   cycling,
   vision,
   mission,
-  contact
+  contactt
 };
